@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./utilities.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Loruki | Cloud Hosting For Everyone</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <!-- container inside navbar so the container can be centered vertically and another class of flex as you don't want every container to be flex-->
+      <div class="container flex">
+        <h1 class="logo">Loruki.</h1>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./features.html">Features</a></li>
+            <li><a href="./docs.html">Docs</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <section class="showcase">
+      <div class="container grid">
+        <div class="showcase-text">
+          <h1>Easier Deployment</h1>
+          <p>
+            Deploy web apps of all kinds, from large scale enterprise APIs to
+            static websites for individuals. Fill out the form to try a demo of
+            our platform
+          </p>
+          <a href="./features.html" class="btn btn-outline">Read More</a>
+        </div>
+        <div class="showcase-form card">
+          <h2>Request a Demo</h2>
+          <form>
+            <div class="form-control">
+              <input type="text" placeholder="Name" required name="name" />
+            </div>
+            <div class="form-control">
+              <input
+                type="text"
+                required
+                placeholder="Company Name"
+                name="companyName"
+              />
+            </div>
+            <div class="form-control">
+              <input type="text" required name="email" placeholder="email" />
+            </div>
+            <button value="button" class="btn btn-p">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="stats">
+      <div class="container">
+        <h3 class="stats-heading text-center my-1">
+          Welcome to the best platform Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit
+        </h3>
+        <!-- grid but a grid with 3 columns not 2 and content centered and margin on y axis of 4px -->
+        <div class="grid grid-3 text-center my-4">
+          <!-- wrap every stat in a div -->
+          <div>
+            <!-- name of the icon in 3x size -->
+            <i class="fas fa-server fa-3x"></i>
+            <h3>10,364,333</h3>
+            <!-- changes the color of the text to secondary-->
+            <p class="text-secondary">Deployments</p>
+          </div>
+          <div>
+            <i class="fas fa-upload fa-3x"></i>
+            <h3>987TB</h3>
+            <p class="text-secondary">Published</p>
+          </div>
+          <div>
+            <i class="fas fa-server fa-3x"></i>
+            <h3>2,234,455</h3>
+            <p class="text-secondary">Projects</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cli">
+      <div class="container grid">
+        <img src="./images/cli.png" alt="" />
+        <div class="card"><h3>Easy to use, cross platform CLI</h3></div>
+        <div class="card"><h3>Deploy in seconds</h3></div>
+      </div>
+    </section>
+    <section class="cloud bg-secondary my-2 p-2">
+      <div class="container grid">
+        <div class="text-center">
+          <h3 class="lg">Extreme Cloud Hosting</h3>
+          <p>
+            Cloud Hosting like you've never seen. Fast, efficient and scalable
+          </p>
+          <button class="btn btn-dark my-3">Read More</button>
+        </div>
+        <img src="./images/cloud.png" alt="" />
+      </div>
+    </section>
+    <section class="languages my-2">
+      <h2 class="text-center md">Supported languages</h2>
+      <div class="container flex">
+        <div class="card">
+          <h3 class="text-center my-1">Node.js</h3>
+          <img src="./images/logos/node.png" alt="" />
+        </div>
+        <div class="card">
+          <h3 class="text-center my-1">Python</h3>
+          <img src="./images/logos/python.png" alt="" />
+        </div>
+        <div class="card">
+          <h3 class="text-center my-1">C#</h3>
+          <img src="" alt="" />
+        </div>
+        <div class="card">
+          <h3 class="text-center my-1">Ruby</h3>
+          <img src="" alt="" />
+        </div>
+        <div class="card">
+          <h3 class="text-center my-1">PHP</h3>
+          <img src="" alt="" />
+        </div>
+        <div class="card">
+          <h3 class="text-center my-1">Scala</h3>
+          <img src="" alt="" />
+        </div>
+        <div class="card">
+          <h3 class="text-center my-1">Clojure</h3>
+          <img src="" alt="" />
+        </div>
+      </div>
+    </section>
+    <footer class="footer bg-dark py-4">
+      <div class="container grid grid-3">
+        <div>
+          <h3>Loruki</h3>
+          <p>Copyright &copy; 2022</p>
+        </div>
+        <nav>
+          <ul>
+            <li class="my-1"><a href="index.html">Home</a></li>
+            <li class="my-1"><a href="features.html">Features</a></li>
+            <li class="my-1"><a href="docs.html">Docs</a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <a href="#"><i class="fab fa-github fa-2x"></i></a
+          ><a href="#"><i class="fab fa-twitter fa-2x"></i></a
+          ><a href="#"><i class="fab fa-instagram fa-2x"></i></a
+          ><a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
